@@ -16,7 +16,41 @@
 		B56DDCE72112E36800F82838 /* TabViewControllerPlugin_BottomInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDCDF2112E36700F82838 /* TabViewControllerPlugin_BottomInset.swift */; };
 		B56DDCE82112E36800F82838 /* UIViewController+tabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDCE02112E36700F82838 /* UIViewController+tabViewController.swift */; };
 		B56DDCE92112E36800F82838 /* TabViewControllerPlugin_HeaderScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDCE12112E36700F82838 /* TabViewControllerPlugin_HeaderScroll.swift */; };
+		B56DDCF32112E47C00F82838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDCF22112E47C00F82838 /* AppDelegate.swift */; };
+		B56DDCF82112E47C00F82838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56DDCF62112E47C00F82838 /* Main.storyboard */; };
+		B56DDCFA2112E47D00F82838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56DDCF92112E47D00F82838 /* Assets.xcassets */; };
+		B56DDCFD2112E47D00F82838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56DDCFB2112E47D00F82838 /* LaunchScreen.storyboard */; };
+		B56DDD032112E53700F82838 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDD022112E53700F82838 /* MainTableViewController.swift */; };
+		B56DDD052112F7C800F82838 /* PageTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDD042112F7C800F82838 /* PageTabViewController.swift */; };
+		B56DDD062112F9B400F82838 /* HLTabViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56DDCCC2112DEDE00F82838 /* HLTabViewController.framework */; };
+		B56DDD072112F9B400F82838 /* HLTabViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B56DDCCC2112DEDE00F82838 /* HLTabViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B56DDD0C2113020E00F82838 /* BarTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDD0B2113020E00F82838 /* BarTabViewController.swift */; };
+		B56DDD0E2113059A00F82838 /* HeaderTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDD0D2113059A00F82838 /* HeaderTabViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B56DDD082112F9B500F82838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56DDCC32112DEDE00F82838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56DDCCB2112DEDE00F82838;
+			remoteInfo = HLTabViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B56DDD0A2112F9B500F82838 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B56DDD072112F9B400F82838 /* HLTabViewController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B56DDCCC2112DEDE00F82838 /* HLTabViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLTabViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +64,16 @@
 		B56DDCDF2112E36700F82838 /* TabViewControllerPlugin_BottomInset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewControllerPlugin_BottomInset.swift; sourceTree = "<group>"; };
 		B56DDCE02112E36700F82838 /* UIViewController+tabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+tabViewController.swift"; sourceTree = "<group>"; };
 		B56DDCE12112E36700F82838 /* TabViewControllerPlugin_HeaderScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewControllerPlugin_HeaderScroll.swift; sourceTree = "<group>"; };
+		B56DDCF02112E47C00F82838 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56DDCF22112E47C00F82838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B56DDCF72112E47C00F82838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B56DDCF92112E47D00F82838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B56DDCFC2112E47D00F82838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B56DDCFE2112E47D00F82838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56DDD022112E53700F82838 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		B56DDD042112F7C800F82838 /* PageTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTabViewController.swift; sourceTree = "<group>"; };
+		B56DDD0B2113020E00F82838 /* BarTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTabViewController.swift; sourceTree = "<group>"; };
+		B56DDD0D2113059A00F82838 /* HeaderTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +84,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B56DDCED2112E47C00F82838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56DDD062112F9B400F82838 /* HLTabViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				B56DDCCE2112DEDE00F82838 /* HLTabViewController */,
+				B56DDCF12112E47C00F82838 /* Example */,
 				B56DDCCD2112DEDE00F82838 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				B56DDCCC2112DEDE00F82838 /* HLTabViewController.framework */,
+				B56DDCF02112E47C00F82838 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +129,22 @@
 			);
 			name = HLTabViewController;
 			path = Sources/HLTabViewController;
+			sourceTree = "<group>";
+		};
+		B56DDCF12112E47C00F82838 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				B56DDCF22112E47C00F82838 /* AppDelegate.swift */,
+				B56DDD022112E53700F82838 /* MainTableViewController.swift */,
+				B56DDCF62112E47C00F82838 /* Main.storyboard */,
+				B56DDCF92112E47D00F82838 /* Assets.xcassets */,
+				B56DDCFB2112E47D00F82838 /* LaunchScreen.storyboard */,
+				B56DDCFE2112E47D00F82838 /* Info.plist */,
+				B56DDD042112F7C800F82838 /* PageTabViewController.swift */,
+				B56DDD0B2113020E00F82838 /* BarTabViewController.swift */,
+				B56DDD0D2113059A00F82838 /* HeaderTabViewController.swift */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,18 +179,41 @@
 			productReference = B56DDCCC2112DEDE00F82838 /* HLTabViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B56DDCEF2112E47C00F82838 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56DDCFF2112E47D00F82838 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				B56DDCEC2112E47C00F82838 /* Sources */,
+				B56DDCED2112E47C00F82838 /* Frameworks */,
+				B56DDCEE2112E47C00F82838 /* Resources */,
+				B56DDD0A2112F9B500F82838 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56DDD092112F9B500F82838 /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = B56DDCF02112E47C00F82838 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B56DDCC32112DEDE00F82838 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "肇庆市华盈体育文化发展有限公司";
 				TargetAttributes = {
 					B56DDCCB2112DEDE00F82838 = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 0940;
+					};
+					B56DDCEF2112E47C00F82838 = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
@@ -130,6 +223,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B56DDCC22112DEDE00F82838;
 			productRefGroup = B56DDCCD2112DEDE00F82838 /* Products */;
@@ -137,6 +231,7 @@
 			projectRoot = "";
 			targets = (
 				B56DDCCB2112DEDE00F82838 /* HLTabViewController */,
+				B56DDCEF2112E47C00F82838 /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -146,6 +241,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56DDCEE2112E47C00F82838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56DDCFD2112E47D00F82838 /* LaunchScreen.storyboard in Resources */,
+				B56DDCFA2112E47D00F82838 /* Assets.xcassets in Resources */,
+				B56DDCF82112E47C00F82838 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +272,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B56DDCEC2112E47C00F82838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56DDD0C2113020E00F82838 /* BarTabViewController.swift in Sources */,
+				B56DDD052112F7C800F82838 /* PageTabViewController.swift in Sources */,
+				B56DDD032112E53700F82838 /* MainTableViewController.swift in Sources */,
+				B56DDD0E2113059A00F82838 /* HeaderTabViewController.swift in Sources */,
+				B56DDCF32112E47C00F82838 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B56DDD092112F9B500F82838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56DDCCB2112DEDE00F82838 /* HLTabViewController */;
+			targetProxy = B56DDD082112F9B500F82838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B56DDCF62112E47C00F82838 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56DDCF72112E47C00F82838 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B56DDCFB2112E47D00F82838 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56DDCFC2112E47D00F82838 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B56DDCD22112DEDE00F82838 /* Debug */ = {
@@ -343,6 +487,46 @@
 			};
 			name = Release;
 		};
+		B56DDD002112E47D00F82838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D48A2C9JPT;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---------------.Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B56DDD012112E47D00F82838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D48A2C9JPT;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---------------.Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -360,6 +544,15 @@
 			buildConfigurations = (
 				B56DDCD52112DEDE00F82838 /* Debug */,
 				B56DDCD62112DEDE00F82838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56DDCFF2112E47D00F82838 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56DDD002112E47D00F82838 /* Debug */,
+				B56DDD012112E47D00F82838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
