@@ -49,7 +49,8 @@
 				B56DDCCF2112DEDE00F82838 /* HLTabViewController.h */,
 				B56DDCD02112DEDE00F82838 /* Info.plist */,
 			);
-			path = HLTabViewController;
+			name = HLTabViewController;
+			path = Sources/HLTabViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +96,7 @@
 				TargetAttributes = {
 					B56DDCCB2112DEDE00F82838 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -259,6 +261,7 @@
 		B56DDCD52112DEDE00F82838 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -276,6 +279,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "---------------.HLTabViewController";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +288,7 @@
 		B56DDCD62112DEDE00F82838 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
