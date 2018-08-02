@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		B56DDCD12112DEDE00F82838 /* HLTabViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B56DDCCF2112DEDE00F82838 /* HLTabViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B56DDCE22112E36800F82838 /* TabViewControllerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDCDA2112E36600F82838 /* TabViewControllerPlugin.swift */; };
+		B56DDCE32112E36800F82838 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDCDB2112E36600F82838 /* TabViewController.swift */; };
+		B56DDCE42112E36800F82838 /* TabViewControllerPlugin_TabViewBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDCDC2112E36600F82838 /* TabViewControllerPlugin_TabViewBar.swift */; };
+		B56DDCE52112E36800F82838 /* TabViewBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDCDD2112E36700F82838 /* TabViewBar.swift */; };
+		B56DDCE62112E36800F82838 /* DefaultTabViewBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDCDE2112E36700F82838 /* DefaultTabViewBar.swift */; };
+		B56DDCE72112E36800F82838 /* TabViewControllerPlugin_BottomInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDCDF2112E36700F82838 /* TabViewControllerPlugin_BottomInset.swift */; };
+		B56DDCE82112E36800F82838 /* UIViewController+tabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDCE02112E36700F82838 /* UIViewController+tabViewController.swift */; };
+		B56DDCE92112E36800F82838 /* TabViewControllerPlugin_HeaderScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DDCE12112E36700F82838 /* TabViewControllerPlugin_HeaderScroll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B56DDCCC2112DEDE00F82838 /* HLTabViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLTabViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56DDCCF2112DEDE00F82838 /* HLTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLTabViewController.h; sourceTree = "<group>"; };
 		B56DDCD02112DEDE00F82838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56DDCDA2112E36600F82838 /* TabViewControllerPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewControllerPlugin.swift; sourceTree = "<group>"; };
+		B56DDCDB2112E36600F82838 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		B56DDCDC2112E36600F82838 /* TabViewControllerPlugin_TabViewBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewControllerPlugin_TabViewBar.swift; sourceTree = "<group>"; };
+		B56DDCDD2112E36700F82838 /* TabViewBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewBar.swift; sourceTree = "<group>"; };
+		B56DDCDE2112E36700F82838 /* DefaultTabViewBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTabViewBar.swift; sourceTree = "<group>"; };
+		B56DDCDF2112E36700F82838 /* TabViewControllerPlugin_BottomInset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewControllerPlugin_BottomInset.swift; sourceTree = "<group>"; };
+		B56DDCE02112E36700F82838 /* UIViewController+tabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+tabViewController.swift"; sourceTree = "<group>"; };
+		B56DDCE12112E36700F82838 /* TabViewControllerPlugin_HeaderScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewControllerPlugin_HeaderScroll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +62,14 @@
 		B56DDCCE2112DEDE00F82838 /* HLTabViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B56DDCDE2112E36700F82838 /* DefaultTabViewBar.swift */,
+				B56DDCDD2112E36700F82838 /* TabViewBar.swift */,
+				B56DDCDB2112E36600F82838 /* TabViewController.swift */,
+				B56DDCDA2112E36600F82838 /* TabViewControllerPlugin.swift */,
+				B56DDCDF2112E36700F82838 /* TabViewControllerPlugin_BottomInset.swift */,
+				B56DDCE12112E36700F82838 /* TabViewControllerPlugin_HeaderScroll.swift */,
+				B56DDCDC2112E36600F82838 /* TabViewControllerPlugin_TabViewBar.swift */,
+				B56DDCE02112E36700F82838 /* UIViewController+tabViewController.swift */,
 				B56DDCCF2112DEDE00F82838 /* HLTabViewController.h */,
 				B56DDCD02112DEDE00F82838 /* Info.plist */,
 			);
@@ -132,6 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56DDCE72112E36800F82838 /* TabViewControllerPlugin_BottomInset.swift in Sources */,
+				B56DDCE92112E36800F82838 /* TabViewControllerPlugin_HeaderScroll.swift in Sources */,
+				B56DDCE32112E36800F82838 /* TabViewController.swift in Sources */,
+				B56DDCE42112E36800F82838 /* TabViewControllerPlugin_TabViewBar.swift in Sources */,
+				B56DDCE52112E36800F82838 /* TabViewBar.swift in Sources */,
+				B56DDCE22112E36800F82838 /* TabViewControllerPlugin.swift in Sources */,
+				B56DDCE62112E36800F82838 /* DefaultTabViewBar.swift in Sources */,
+				B56DDCE82112E36800F82838 /* UIViewController+tabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +301,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = HLTabViewController/Info.plist;
+				INFOPLIST_FILE = Sources/HLTabViewController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,7 +328,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = HLTabViewController/Info.plist;
+				INFOPLIST_FILE = Sources/HLTabViewController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
